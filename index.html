@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccs/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>My Website</title>
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/d.png" class="logo">
+            <h1 class="toko">dBookPalace</h1>
+        </div>
+
+
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Banner -->
+        <section id="home">
+            <div class="home">
+                <h3 class="welcome"> Hi <span id="nama"></span> ! Welcome to dBookPalace </h3>
+            </div>
+
+            <div id="slider">
+                <img id="slide" class="banner-container" src="assets/1.png">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- About Us-->
+        <section id="about">
+            <div>
+                <h3 class="subjudul"> Why Choose Us? </h3>
+            </div>
+
+            <article>
+                <div class="profile">
+                    <img class="profile-icon" src="assets/a.png">
+                    <h4> Shop anytime, anywhere, <br> and get free shipping! </h4>
+                    <p> We are available 24/7 <br> you can shop from the comfort of your place
+                        <br> and enjoy free shipping or shipping discount
+                    </p>
+                </div>
+
+                <div class="profile">
+                    <img class="profile-icon" src="assets/b.png">
+                    <h4> Where quality books come at prices <br> you can afford. </h4>
+                    <p> We offer books at affordable price <br> and of course with high quality</p>
+                </div>
+
+                <div class="profile">
+                    <img class="profile-icon" src="assets/c.png">
+                    <h4> Escape reality, <br> dive into your favorite genre </h4>
+                    <p> A huge selection of books from <br> every genre imaginable, ready to take you
+                        <br> to new worlds and spark your imagination.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Products -->
+        <section id="products">
+            <header>
+                <h3 class="subjudul"> Discover Our Products </h3>
+            </header>
+
+            <article>
+                <div class=" card">
+                    <img src="assets/4.png" class="cimg">
+                    <h5> Ensiklopedia Junior <br> Tanya Jawab : Siapa, Ya?</h5>
+                    <p> Buku Ensiklopedia yang berisi 100 pertanyaan menarik yang dapat menambah pengetahuan.
+                        Semua pertanyaan dijawab singkat serta dilengkapi ilustrasi dan foto yang mempermudah
+                        memahami topik yang djelaskan. </p>
+                </div>
+
+                <div class=" card">
+                    <img src="assets/5.png" class="cimg">
+                    <h5> All About My Body <br> Saat Aku Melihat</h5>
+                    <p> Buku All About My Body Series membantu anak dalam megenal dan belajar mengenai setiap
+                        bagian tubuh dan anatomi tubuh manusia serta cara kerjanya. Dengan mengenal anggota
+                        tubuh anak dapat merasa lebih nyaman dalam mengkomunikasikan hal-hal yang berhubungan
+                        dengan tubuh mereka. </p>
+                </div>
+
+                <div class=" card">
+                    <img src="assets/6.png" class="cimg">
+                    <h5>Komik Petualangan Sains <br> Ekspedisi Laut </h5>
+                    <p> Komik Petualangan Sains hadir bagi si kecil belajar sains yang bermanfaat untuk
+                        membantu anak mengembangkan kemampuan hidup, termasuk kemampuan berkomunikasi,
+                        tetap teratur dan fokus, serta dapat membentuk pendapat anak berdasarkan pengamatan.</p>
+                </div>
+
+                <div class=" card">
+                    <img src="assets/7.png" class="cimg">
+                    <h5> Disney Movie Collection <br> Peter Pan </h5>
+                    <p> Film-film Disney telah menghibur anak-anak dari generasi ke generasi.
+                        Seri eksklusif buku cerita film Disney ini menawarkan kesempatan luar biasa bagi
+                        para penggemarnya untuk menciptakan koleksi istimewa yang berharga untuk masa depan.</p>
+                </div>
+
+                <div class=" card">
+                    <img src="assets/8.png" class="cimg">
+                    <h5> 365 Aktivitas Seru <br> Sepanjang Tahun </h5>
+                    <p> Buku 365 Aktivitas Seru Sepanjang Tahun ini dibuat secara khusus untuk anak-anak.
+                        Terdapat 365 aktivitas beragam yang akan menemani buah hati setiap hari selama
+                        setahun penuh. Jenis aktivitasnya dapat menstimulasi kemampuan observasi, melatih
+                        motorik halus, kognitif, logika, dan kreativitas si kecil. </p>
+                </div>
+            </article>
+            <div>
+                <h6 align="center"><a href="produk.html"> See More Products </a></h6>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact Us -->
+        <section id="contact">
+            <header>
+                <h3 class="subjudul"> Get in Touch with Us </h3>
+            <header>
+            
+            <article class ="message">
+                <form id="message">
+                    <table>
+                        <tr>
+                            <td><label for="nama_input"> Name</label></td>
+                            <td> : </td>
+                            <td> <input required type="text" placeholder="Your Name" id="nama_input"></td>
+                        </tr>
+            
+                        <tr>
+                            <td><label for="tgl"> Date of Birth </label></td>
+                            <td> : </td>
+                            <td> <input required type="date" id="tgl"></td>
+                        </tr>           
+            
+                        <tr>
+                            <td><label for="jk"> Gender </label></td>
+                            <td> : </td>
+                            <td> <select required id="jk">
+                                    <option value="Gender">[Choose Your Gender]</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                            </td>
+                        </tr>            
+            
+                        <tr>
+                            <td> <label for="pesan">Your Message </label></td>
+                            <td> : </td>
+                            <td> <textarea required id="pesan" cols="40" rows="6"></textarea></td>
+                        </tr>            
+            
+                        <tr>
+                            <td rowspan="3"><button id="submit" type="button" onclick="validateForm()" >Send</button>
+                            </td>
+                        </tr>          
+                    </table>
+                </form>
+
+                <div class="pesan">
+                    <p class="isi"> <b><u>Your Message here :</u></b> </h6>
+                    <br>
+                    <br>
+                    <p class="isi" id="hasil"></p>
+                              
+                </div>
+            </article>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p> Copyright &copy; 2024 dBookPalace</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+<script src="js/script.js"></script>
